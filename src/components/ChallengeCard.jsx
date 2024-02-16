@@ -3,13 +3,11 @@ import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardContent from "@mui/material/CardContent";
 import CardActions from "@mui/material/CardActions";
-import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
-import { red } from "@mui/material/colors";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import { Button, Chip } from "@mui/material";
+import { Chip } from "@mui/material";
 import axios from "axios";
 
 export default function ChallengeCard({ data, getChallenge }) {
@@ -30,8 +28,11 @@ export default function ChallengeCard({ data, getChallenge }) {
   return (
     <Card
       sx={{
-        maxWidth: 500,
-        flexWrap: "wrap",
+        maxWidth: 600,
+        minWidth: 500,
+        minHeight: 270,
+        maxHeight: 270,
+        flexWrap: "nowrap",
         height: "max-content",
       }}
     >

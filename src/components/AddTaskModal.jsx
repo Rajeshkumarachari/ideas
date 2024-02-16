@@ -53,7 +53,7 @@ export default function BasicModal({
         title: title,
         description: description,
         tags: tag,
-        likes: 23,
+        likes: Math.floor(Math.random() * 20 + 1),
       })
       .then(function (response) {
         console.log(response);

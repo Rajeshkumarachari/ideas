@@ -14,6 +14,7 @@ const ChallengeContainer = styled("div")({
   padding: "1rem",
   display: "flex",
   flexWrap: "wrap",
+  margin: "2rem",
   gap: "1rem ",
   height: "90vh",
 });
@@ -27,9 +28,9 @@ const NewIconWrapper = styled("div")({
   placeContent: "center",
   cursor: "pointer",
   position: "absolute",
-  top: "12vh",
+  top: "1vh",
   right: "1rem",
-  backgroundColor: "#81689D",
+  backgroundColor: "#19eb24",
 });
 
 const Dashboard = () => {
