@@ -1,0 +1,77 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "id": "3",
+      "title": "a title 3",
+      "views": 100
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": [
+    {
+      "id": "a42e",
+      "empId": "empid 4"
+    },
+    {
+      "id": "5451",
+      "empId": "empid 45"
+    },
+    {
+      "id": "f1d7",
+      "empId": "17cs014"
+    },
+    {
+      "id": "93a5",
+      "empId": "17cs017"
+    },
+    {
+      "id": "849a",
+      "empId": "2228213"
+    },
+    {
+      "id": "c515",
+      "empId": "2228213"
+    },
+    {
+      "id": "4bf1",
+      "empId": ""
+    },
+    {
+      "id": "f819",
+      "empId": "gfugu"
+    }
+  ],
+  "challenge": [
+    {
+      "title": "React",
+      "description": "React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality.[8][9] A key advantage of React is that it only rerenders those parts of the page that have changed, avoiding unnecessary rerendering of unchanged DOM elements.",
+      "tags": [
+        "Front end developer",
+        "Javascript"
+      ],
+      "likes": 16,
+      "id": "1"
+    }
+  ]
+}
